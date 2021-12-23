@@ -23,7 +23,7 @@
 		67B038662772B2B3008219D1 /* LampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampsViewController.swift; sourceTree = "<group>"; };
 		67B038692772B4B2008219D1 /* ActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
 		67B0386B2772B7ED008219D1 /* IconHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconHelper.swift; sourceTree = "<group>"; };
-		67C513732735B1DB002A5274 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C513732735B1DB002A5274 /* SmartRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C513762735B1DB002A5274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67C513782735B1DB002A5274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67C5137B2735B1DB002A5274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		67C5136A2735B1DB002A5274 = {
 			isa = PBXGroup;
 			children = (
-				67C513752735B1DB002A5274 /* Login */,
+				67C513752735B1DB002A5274 /* SmartRoom */,
 				67C513742735B1DB002A5274 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 		67C513742735B1DB002A5274 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67C513732735B1DB002A5274 /* Login.app */,
+				67C513732735B1DB002A5274 /* SmartRoom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67C513752735B1DB002A5274 /* Login */ = {
+		67C513752735B1DB002A5274 /* SmartRoom */ = {
 			isa = PBXGroup;
 			children = (
 				67B038682772B2C7008219D1 /* Controllers */,
@@ -89,15 +89,15 @@
 				67C513822735B1E2002A5274 /* Info.plist */,
 				67B0386B2772B7ED008219D1 /* IconHelper.swift */,
 			);
-			path = Login;
+			path = SmartRoom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67C513722735B1DB002A5274 /* Login */ = {
+		67C513722735B1DB002A5274 /* SmartRoom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67C513852735B1E2002A5274 /* Build configuration list for PBXNativeTarget "Login" */;
+			buildConfigurationList = 67C513852735B1E2002A5274 /* Build configuration list for PBXNativeTarget "SmartRoom" */;
 			buildPhases = (
 				67C5136F2735B1DB002A5274 /* Sources */,
 				67C513702735B1DB002A5274 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = Login;
+			name = SmartRoom;
 			productName = Login;
-			productReference = 67C513732735B1DB002A5274 /* Login.app */;
+			productReference = 67C513732735B1DB002A5274 /* SmartRoom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 67C5136E2735B1DB002A5274 /* Build configuration list for PBXProject "Login" */;
+			buildConfigurationList = 67C5136E2735B1DB002A5274 /* Build configuration list for PBXProject "SmartRoom" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67C513722735B1DB002A5274 /* Login */,
+				67C513722735B1DB002A5274 /* SmartRoom */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67C5136E2735B1DB002A5274 /* Build configuration list for PBXProject "Login" */ = {
+		67C5136E2735B1DB002A5274 /* Build configuration list for PBXProject "SmartRoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67C513832735B1E2002A5274 /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67C513852735B1E2002A5274 /* Build configuration list for PBXNativeTarget "Login" */ = {
+		67C513852735B1E2002A5274 /* Build configuration list for PBXNativeTarget "SmartRoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67C513862735B1E2002A5274 /* Debug */,
