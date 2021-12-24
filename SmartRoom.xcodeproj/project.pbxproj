@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		67B03862277296A4008219D1 /* Lamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B03861277296A4008219D1 /* Lamp.swift */; };
 		67B038672772B2B3008219D1 /* LampsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B038662772B2B3008219D1 /* LampsViewController.swift */; };
-		67B0386A2772B4B2008219D1 /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B038692772B4B2008219D1 /* ActionsViewController.swift */; };
-		67B0386C2772B7ED008219D1 /* IconHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0386B2772B7ED008219D1 /* IconHelper.swift */; };
+		67B0386A2772B4B2008219D1 /* GesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B038692772B4B2008219D1 /* GesturesViewController.swift */; };
+		67B038902775FACD008219D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0388F2775FACD008219D1 /* LoginViewController.swift */; };
+		67B0389227760AFB008219D1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0389127760AFB008219D1 /* SignUpViewController.swift */; };
 		67C513772735B1DB002A5274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C513762735B1DB002A5274 /* AppDelegate.swift */; };
 		67C513792735B1DB002A5274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C513782735B1DB002A5274 /* ViewController.swift */; };
 		67C5137C2735B1DB002A5274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C5137A2735B1DB002A5274 /* Main.storyboard */; };
@@ -21,8 +22,9 @@
 /* Begin PBXFileReference section */
 		67B03861277296A4008219D1 /* Lamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
 		67B038662772B2B3008219D1 /* LampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampsViewController.swift; sourceTree = "<group>"; };
-		67B038692772B4B2008219D1 /* ActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
-		67B0386B2772B7ED008219D1 /* IconHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconHelper.swift; sourceTree = "<group>"; };
+		67B038692772B4B2008219D1 /* GesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesViewController.swift; sourceTree = "<group>"; };
+		67B0388F2775FACD008219D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		67B0389127760AFB008219D1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		67C513732735B1DB002A5274 /* SmartRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C513762735B1DB002A5274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67C513782735B1DB002A5274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,22 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67B03863277296E5008219D1 /* Model */ = {
+		67B03863277296E5008219D1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				67B03861277296A4008219D1 /* Lamp.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		67B038682772B2C7008219D1 /* Controllers */ = {
+		67B038682772B2C7008219D1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				67B038662772B2B3008219D1 /* LampsViewController.swift */,
 				67C513782735B1DB002A5274 /* ViewController.swift */,
-				67B038692772B4B2008219D1 /* ActionsViewController.swift */,
+				67B038692772B4B2008219D1 /* GesturesViewController.swift */,
+				67B0388F2775FACD008219D1 /* LoginViewController.swift */,
+				67B0389127760AFB008219D1 /* SignUpViewController.swift */,
 			);
-			path = Controllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		67C5136A2735B1DB002A5274 = {
@@ -80,14 +84,13 @@
 		67C513752735B1DB002A5274 /* SmartRoom */ = {
 			isa = PBXGroup;
 			children = (
-				67B038682772B2C7008219D1 /* Controllers */,
-				67B03863277296E5008219D1 /* Model */,
+				67B038682772B2C7008219D1 /* ViewControllers */,
+				67B03863277296E5008219D1 /* Models */,
 				67C513762735B1DB002A5274 /* AppDelegate.swift */,
 				67C5137A2735B1DB002A5274 /* Main.storyboard */,
 				67C5137D2735B1E2002A5274 /* Assets.xcassets */,
 				67C5137F2735B1E2002A5274 /* LaunchScreen.storyboard */,
 				67C513822735B1E2002A5274 /* Info.plist */,
-				67B0386B2772B7ED008219D1 /* IconHelper.swift */,
 			);
 			path = SmartRoom;
 			sourceTree = "<group>";
@@ -163,11 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B038902775FACD008219D1 /* LoginViewController.swift in Sources */,
 				67B038672772B2B3008219D1 /* LampsViewController.swift in Sources */,
+				67B0389227760AFB008219D1 /* SignUpViewController.swift in Sources */,
 				67C513792735B1DB002A5274 /* ViewController.swift in Sources */,
 				67C513772735B1DB002A5274 /* AppDelegate.swift in Sources */,
-				67B0386A2772B4B2008219D1 /* ActionsViewController.swift in Sources */,
-				67B0386C2772B7ED008219D1 /* IconHelper.swift in Sources */,
+				67B0386A2772B4B2008219D1 /* GesturesViewController.swift in Sources */,
 				67B03862277296A4008219D1 /* Lamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,12 +319,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Login/Info.plist;
+				INFOPLIST_FILE = SmartRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ipl.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = ipl.SmarRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,12 +336,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Login/Info.plist;
+				INFOPLIST_FILE = SmartRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ipl.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = ipl.SmarRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

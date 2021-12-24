@@ -22,32 +22,29 @@ class ViewController: UIViewController {
         //navigationItem.title = usernameTextField.text
         
         guard let sender = sender as? UIButton else {return}
-        if sender == forgotPasswordButton{
-            segue.destination.navigationItem.title = "Forgot Password"
-        }else if sender == forgotUsernameButton{
-            segue.destination.navigationItem.title = "Forgot Username"
+        if sender == registerButton{
+            segue.destination.navigationItem.title = "Register"
         }
     }
     
+    
+     @IBOutlet weak var registerButton: UIButton!
+    
     @IBOutlet weak var loginButton: UIButton!
     
-    @IBOutlet weak var forgotPasswordButton: UIButton!
-    @IBOutlet weak var forgotUsernameButton: UIButton!
-    
     @IBOutlet weak var passwordTextField: UITextField!
+   
     @IBOutlet weak var usernameTextField: UITextField!
     
-    @IBAction func forgotPassword(_ sender: UIButton) {
-        performSegue(withIdentifier: "ForgotPasswordButton", sender: forgotPasswordButton)
-    }
     
     
-    @IBAction func forgotUsername(_ sender: UIButton) {
-            performSegue(withIdentifier: "ForgotUsernameButton", sender: forgotUsernameButton)
+    @IBAction func register(_ sender: UIButton) {
+        performSegue(withIdentifier: "RegisterButton", sender: registerButton)
     }
     
     @IBAction func login(_ sender: UIButton) {
         performSegue(withIdentifier: "LoginButton", sender: loginButton)
     }
+    
 }
 

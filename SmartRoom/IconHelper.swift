@@ -13,10 +13,10 @@ class IconHelper{
         let tabBarVC = UITabBarController()
         
         let lvc = UINavigationController(rootViewController: LampsViewController())
-        let avc = UINavigationController(rootViewController: ActionsViewController())
+        let avc = UINavigationController(rootViewController: GesturesViewController())
         
         lvc.title = "Home"
-        lvc.title = "Actions"
+        lvc.title = "Gestures"
         
         tabBarVC.setViewControllers([lvc, avc], animated: false)
         tabBarVC.modalPresentationStyle = .fullScreen
